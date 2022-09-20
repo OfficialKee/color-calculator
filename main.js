@@ -25,7 +25,7 @@ if (whatTodo === 'combine') {
         }
  }   
  if (whatTodo === 'deconstruct'){
-    let whatColor = prompt('What color are we deconstructing? ').toLowerCase();
+    let whatColor = prompt('What color are we deconstructing? Secondary colors only. ').toLowerCase();
     if (whatColor === 'purple'){
         let colorOne = 'red';
         let colorTwo = 'blue';
@@ -46,7 +46,7 @@ if (whatTodo === 'combine') {
  
 // let colors = prompt('Enter one secondary color, or two primary colors. ').toLowerCase()
 
-// if colors.includes('purple') = true
+// if (colors).includes('purple') = true
 //     let colorOne = 'red'
 //     let colorTwo = 'blue'
 //     console.log (`This color is created by adding ${colorOne} and ${colorTwo}`)
