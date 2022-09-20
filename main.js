@@ -1,6 +1,6 @@
 const prompt = require('prompt-sync')({sigint: true});
 
-
+//
 console.log('Do you want to combine or deconstruct colors?');
 
 let whatTodo = (prompt('Enter combine/deconstruct. ')).toLowerCase();
